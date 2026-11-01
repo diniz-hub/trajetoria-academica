@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1557b7">
+  <meta name="description" content="Conheça o Trajetória Acadêmica, aplicativo Android desenvolvido por estudantes do curso de Informática do IFPB – Campus Santa Luzia.">
+  <title>Trajetória Acadêmica | IFPB Santa Luzia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="brand" href="#inicio" aria-label="Trajetória Acadêmica, início">
+        <span class="brand-mark">TA</span>
+        <span>Trajetória <b>Acadêmica</b></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#sobre">Sobre</a><a href="#funcionalidades">Funcionalidades</a>
+        <a href="#telas">Telas do app</a><a href="#demonstracao">Demonstração</a><a href="#equipe">Equipe</a>
+      </div>
+      <button class="theme-toggle" id="themeToggle" aria-label="Ativar modo escuro" title="Alternar tema">
+        <span id="themeIcon">☾</span><span class="theme-label">Tema</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> Projeto acadêmico · Android</div>
+          <h1>Seu caminho acadêmico, <span>mais organizado.</span></h1>
+          <p class="hero-text">Acompanhe notas, atividades e sua evolução escolar em um só lugar com o Trajetória Acadêmica.</p>
+          <p class="campus"><span class="campus-symbol">IF</span> IFPB — Campus Santa Luzia <span class="separator">•</span> Curso de Informática</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#sobre">Conheça o aplicativo <span>→</span></a>
+            <a class="button button-secondary" href="#demonstracao"><span class="play-small">▶</span> Assistir demonstração</a>
+            <a class="button button-secondary" href="app-debug.apk" download="Trajetoria-Academica.apk">↓ Baixar aplicativo (Android)</a>
+          </div>
+          <div class="hero-note"><span class="note-check">✓</span> Desenvolvido por estudantes para apoiar a organização dos estudos.</div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="visual-glow"></div>
+          <div class="floating-tag tag-top"><span class="tag-icon">↗</span> Evolução das médias</div>
+          <div class="phone-frame">
+            <div class="phone-camera"></div>
+            <img src="assets/tela-inicial-trajetoria.jpg" alt="Tela inicial do Trajetória Acadêmica, com campo para digitar o nome e botão Começar">
+          </div>
+          <div class="floating-tag tag-bottom"><span class="status-dot"></span> Acompanhe seu desempenho</div>
+          <div class="visual-caption">Uma visão mais clara da sua trajetória.</div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#sobre" aria-label="Rolar para conhecer o aplicativo">↓</a>
+    </section>
+
+    <section class="section about-section" id="sobre">
+      <div class="container narrow reveal">
+        <p class="section-kicker">SOBRE O PROJETO</p>
+        <h2>Um apoio para acompanhar cada etapa.</h2>
+        <p class="section-lead">O <strong>Trajetória Acadêmica</strong> é um aplicativo Android desenvolvido para estudantes que desejam organizar suas informações escolares e acompanhar o próprio desempenho ao longo dos bimestres.</p>
+        <div class="about-grid">
+          <article class="about-item"><span class="about-number">01</span><h3>O que é?</h3><p>Uma ferramenta para registrar e consultar informações importantes da vida escolar.</p></article>
+          <article class="about-item"><span class="about-number">02</span><h3>Para quem?</h3><p>Foi pensado para estudantes que querem acompanhar suas notas e atividades.</p></article>
+          <article class="about-item"><span class="about-number">03</span><h3>Qual o objetivo?</h3><p>Facilitar a organização e ajudar o estudante a observar seu desempenho acadêmico.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section features-section" id="funcionalidades">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><p class="section-kicker">O QUE VOCÊ ENCONTRA</p><h2>Funcionalidades do aplicativo</h2></div>
+          <p>Recursos para registrar informações escolares e acompanhar o desempenho com mais praticidade.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card reveal"><div class="feature-icon icon-blue">▤</div><h3>Cadastro de notas</h3><p>Cadastre e acompanhe as notas obtidas nas avaliações escolares.</p><span class="card-arrow">↗</span></article>
+          <article class="feature-card reveal"><div class="feature-icon icon-purple">⌁</div><h3>Gráfico de evolução</h3><p>Visualize a evolução das médias ao longo dos bimestres.</p><span class="card-arrow">↗</span></article>
+          <article class="feature-card reveal"><div class="feature-icon icon-green">∑</div><h3>Calcular notas</h3><p>Calcule as notas necessárias para acompanhar suas metas acadêmicas.</p><span class="card-arrow">↗</span></article>
+          <article class="feature-card reveal"><div class="feature-icon icon-orange">☷</div><h3>Atividades</h3><p>Registre atividades acadêmicas e acompanhe seu andamento.</p><span class="card-arrow">↗</span></article>
+          <article class="feature-card reveal"><div class="feature-icon icon-cyan">▦</div><h3>Notas por matéria</h3><p>Consulte e acompanhe as notas organizadas por matéria.</p><span class="card-arrow">↗</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="telas">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><p class="section-kicker">POR DENTRO DO APP</p><h2>Conheça as telas do aplicativo</h2></div>
+          <p>Confira as imagens reais que fazem parte do material do projeto. Clique em uma imagem para ampliar.</p>
+        </div>
+        <div class="gallery-grid gallery-grid-original">
+          <button class="gallery-card reveal" data-index="0" aria-label="Ampliar tela inicial e cadastro de notas"><span class="gallery-image"><img src="assets/tela-inicial-cadastro-original.jpg" alt="Imagem original das telas inicial e cadastro de notas"></span><span class="gallery-info"><b>Tela inicial e cadastro de notas</b><small>Imagem original enviada, sem recorte</small><span class="zoom-mark">↗</span></span></button>
+          <button class="gallery-card reveal" data-index="1" aria-label="Ampliar gráfico de evolução"><span class="gallery-image"><img src="assets/tela-grafico-evolucao-original.jpg" alt="Imagem original da tela de gráfico de evolução"></span><span class="gallery-info"><b>Gráfico de evolução</b><small>Imagem original enviada, sem recorte</small><span class="zoom-mark">↗</span></span></button>
+          <button class="gallery-card reveal" data-index="2" aria-label="Ampliar cálculo de notas"><span class="gallery-image"><img src="assets/tela-calcular-notas-original.jpg" alt="Imagem original da tela calcular notas"></span><span class="gallery-info"><b>Calcular notas</b><small>Imagem original enviada, sem recorte</small><span class="zoom-mark">↗</span></span></button>
+          <button class="gallery-card reveal" data-index="3" aria-label="Ampliar tela de atividades"><span class="gallery-image"><img src="assets/tela-atividades-original.jpg" alt="Imagem original da tela de atividades"></span><span class="gallery-info"><b>Atividades</b><small>Imagem original enviada, sem recorte</small><span class="zoom-mark">↗</span></span></button>
+          <button class="gallery-card reveal" data-index="4" aria-label="Ampliar notas por matéria"><span class="gallery-image"><img src="assets/tela-notas-por-materia-original.jpg" alt="Imagem original da tela notas por matéria"></span><span class="gallery-info"><b>Notas por matéria</b><small>Imagem original enviada, sem recorte</small><span class="zoom-mark">↗</span></span></button>
+        </div>
+        <p class="gallery-disclaimer">As imagens são as originais enviadas pelas desenvolvedoras e são exibidas por inteiro, sem cortes.</p>
+      </div>
+    </section>
+
+    <section class="section demo-section" id="demonstracao">
+      <div class="container">
+        <div class="section-heading reveal demo-heading">
+          <div>
+            <p class="section-kicker">ASSISTA E CONHEÇA</p>
+            <h2>O Trajetória Acadêmica em ação</h2>
+          </div>
+          <p>Veja a demonstração em vídeo e conheça melhor as telas e funcionalidades do aplicativo.</p>
+        </div>
+        <div class="demo-panel demo-panel-enhanced reveal">
+          <div class="demo-copy">
+            <span class="demo-badge"><span class="live-dot"></span> Vídeo de demonstração</span>
+            <h3>Conheça o nosso projeto</h3>
+            <p>Confira o vídeo preparado pelas desenvolvedoras e veja como o aplicativo ajuda a organizar notas, acompanhar médias e controlar atividades escolares.</p>
+            <a class="button button-light" href="https://www.youtube.com/watch?v=5yJiqz5Qxs8" target="_blank" rel="noopener noreferrer">
+              <span class="button-play">▶</span> Assistir no YouTube <span aria-hidden="true">↗</span>
+            </a>
+            <small class="video-note">O link abre o vídeo no YouTube em uma nova aba.</small>
+          </div>
+          <div class="video-frame-wrap">
+            <div class="video-frame">
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/5yJiqz5Qxs8"
+                title="Demonstração do aplicativo Trajetória Acadêmica"
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen></iframe>
+            </div>
+            <a class="video-direct-link" href="https://www.youtube.com/watch?v=5yJiqz5Qxs8" target="_blank" rel="noopener noreferrer">
+              Não conseguiu reproduzir? <b>Abrir diretamente no YouTube ↗</b>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section team-section" id="equipe">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><p class="section-kicker">QUEM FAZ ACONTECER</p><h2>Desenvolvedoras e orientador</h2></div>
+          <p>Projeto desenvolvido no curso de Informática do IFPB — Campus Santa Luzia.</p>
+        </div>
+        <div class="team-grid">
+          <article class="person-card reveal"><div class="person-photo"><img src="assets/foto-joedna-original.jpg" alt="Foto fornecida no documento do projeto"></div><div class="person-info"><span class="person-role">DESENVOLVEDORA</span><h3>Joedna Evelin dos Santos Gomes</h3><p>Estudante do curso de Informática.</p><a class="social-qr" href="assets/qr-joedna-original.jpg" target="_blank" rel="noopener noreferrer"><img src="assets/qr-joedna-original.jpg" alt="QR code de perfil fornecido no documento"><span>Ver QR code do perfil ↗</span></a></div></article>
+          <article class="person-card reveal"><div class="person-photo"><img src="assets/foto-anna-livia-original.jpg" alt="Foto fornecida no documento do projeto"></div><div class="person-info"><span class="person-role">DESENVOLVEDORA</span><h3>Anna Lívia Diniz dos Santos</h3><p>Estudante do curso de Informática.</p><a class="social-qr" href="assets/qr-anna-livia-original.jpg" target="_blank" rel="noopener noreferrer"><img src="assets/qr-anna-livia-original.jpg" alt="QR code do Instagram de Anna Lívia"><span>Ver QR code do perfil ↗</span></a></div></article>
+          <article class="person-card reveal"><div class="person-photo advisor-photo"><img src="assets/foto-alexandre-original.jpg" alt="Foto fornecida no documento do projeto"></div><div class="person-info"><span class="person-role">ORIENTADOR</span><h3>Alexandre</h3><p>Orientação do projeto acadêmico.</p><a class="social-qr" href="assets/qr-alexandre-original.jpg" target="_blank" rel="noopener noreferrer"><img src="assets/qr-alexandre-original.jpg" alt="QR code fornecido no documento"><span>Ver QR code do perfil ↗</span></a></div></article>
+        </div>
+        
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a class="brand footer-brand" href="#inicio"><span class="brand-mark">TA</span><span>Trajetória <b>Acadêmica</b></span></a><p>Projeto acadêmico · Curso de Informática · IFPB — Campus Santa Luzia</p><a class="back-top" href="#inicio">Voltar ao topo ↑</a></div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Voltar ao topo">↑</button>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Fechar visualização">×</button>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Imagem anterior">‹</button>
+    <figure><img id="lightboxImage" src="" alt=""><figcaption id="lightboxCaption"></figcaption></figure>
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Próxima imagem">›</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
